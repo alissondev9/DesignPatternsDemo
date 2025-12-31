@@ -1,4 +1,5 @@
-package main.java.com.seuusuario.factory;
+package com.seuusuario.factory;
 
-public class Factory {
+public interface Factory {
+    Produto criarProduto(String tipo);
 }

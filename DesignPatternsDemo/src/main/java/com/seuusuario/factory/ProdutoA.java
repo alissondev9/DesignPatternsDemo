@@ -1,4 +1,8 @@
-package main.java.com.seuusuario.factory;
+package com.seuusuario.factory;
 
-public class ProdutoA {
+public class ProdutoA implements Produto {
+    @Override
+    public void exibirInfo() {
+        System.out.println("Este é o Produto A");
+    }
 }

@@ -1,4 +1,5 @@
-package main.java.com.seuusuario.factory;
+package com.seuusuario.factory;
 
-public class Produto {
+public interface Produto {
+    void exibirInfo();
 }
